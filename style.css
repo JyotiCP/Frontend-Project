@@ -1,0 +1,86 @@
+ /* Style the navigation bar */
+ .navbar {
+    overflow: hidden;
+    background-color: rgb(237, 121, 95) /* Light red background color */
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    justify-content: center;
+    float: left;
+    display: block;
+    color:  black;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-family: Georgia, serif; /* Use Georgia font */
+}
+
+
+
+
+/* Change color on hover */
+.menubar a:hover {
+    background-color: #666;
+}
+
+/* Active/current link */
+.menubar a.active {
+    background-color: #888;
+}
+
+
+/* Style the main container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: sans-serif;
+}
+
+
+      /* Style the left partition */
+.left-partition {
+    flex: 1;
+    padding:0%;
+}
+
+/* Style the right partition */
+.right-partition {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+}
+
+        /* Style the image */
+        .right-partition img {
+            max-width: 100%;
+            height: auto;
+        }
+
+         /* Style the button */
+         .btn {
+            background-color:  rgb(237, 121, 95);
+            color: white;
+            padding: 5px 35px;
+            border:none;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+
+        body {
+    /* fallback for browsers that don't support gradients */
+    background-color: #ffccaa; /* Light yellow */
+    /* CSS Gradient */
+    background-image: linear-gradient(135deg, #ffccaa, #e25fa3); /* Light yellow to light pink */
+}
+
+        
+        
